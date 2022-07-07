@@ -1,10 +1,11 @@
 import React from "react";
 import "./css/index.css";
+import Form from "./components/Form";
 
 function App() {
   return (
-    <div className="m-20">
-      <h1 className=" bg-blue-400">First</h1>
+    <div className="">
+      <Form />
     </div>
   );
 }
