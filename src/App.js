@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
+import "./css/index.css";
 
 function App() {
   return (
-    <div className="App">
-      <h1>First Text</h1>
+    <div className="m-20">
+      <h1 className=" bg-blue-400">First</h1>
     </div>
   );
 }
